@@ -47,6 +47,15 @@ copy the tailwind.config.js from the /src folder
 
 to make the the tailwind.config.js to work
 
+## Step 4: eslint config
+```
+{
+    files: ["**/*.{ts,tsx}"],
+    rules: {
+      "@typescript-eslint/no-unused-vars": "off",
+    },
+  },
+```
 
 ---
 
