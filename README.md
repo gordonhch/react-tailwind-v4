@@ -47,7 +47,9 @@ copy the tailwind.config.js from the /src folder
 
 to make the the tailwind.config.js to work
 
-## Step 4: eslint config
+### Step 5: eslint config
+
+change no-unussed vars to warning only 
 ```
 {
     files: ["**/*.{ts,tsx}"],
