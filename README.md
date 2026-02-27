@@ -49,7 +49,7 @@ to make the the tailwind.config.js to work
 
 ### Step 5: Config eslint 
 
-in eslint.config.js, change no-unussed vars to warning only 
+in eslint.config.js, add the following rules to change no-unused-vars to warning only 
 ```
 {
     files: ["**/*.{ts,tsx}"],
