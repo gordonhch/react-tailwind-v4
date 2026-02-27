@@ -54,7 +54,7 @@ in eslint.config.js, add the following rules to change no-unused-vars to warning
 {
     files: ["**/*.{ts,tsx}"],
     rules: {
-      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "warn", //or "off"
     },
   },
 ```
